@@ -15,3 +15,25 @@ header {
 header p {
     float: right;
 }
+
+h5 {
+    font-size: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+/* Start slider */
+.carousel-indicators li {
+    height: 20px;
+    background-color: red;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.308);
+    position: absolute;
+    z-index: 1;
+}
+
+/* End slider */
