@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Cairo', sans-serif;
+    height: 3000px;
 }
 
 header {
@@ -35,5 +36,36 @@ h5 {
     position: absolute;
     z-index: 1;
 }
-
 /* End slider */
+
+/* Start feutures */
+
+.feutures {
+    margin-top: 75px;
+}
+
+.feutures i {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    line-height: 100px;
+    color: white;
+    font-size: 50px;
+}
+
+.feutures h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.feutures h3 {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    margin: 20px 0px;
+}
+
+.feutures p {
+    color: rgb(100, 92, 92);
+    line-height: 1.8;
+}
