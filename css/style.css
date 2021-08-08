@@ -1,192 +1,206 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
 
 body {
-    font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 header {
-    background-color: teal;
-    color: white;
-    height: 50px;
-    line-height: 50px;
+  background-color: teal;
+  color: white;
+  height: 50px;
+  line-height: 50px;
 }
 
 header p {
-    float: right;
+  float: right;
 }
 
 header h5 {
-    font-size: 20px;
-    background-color: red;
-    display: inline-block;
+  font-size: 20px;
+  background-color: red;
+  display: inline-block;
 }
 
 /* Start slider */
 .carousel-indicators li {
-    height: 20px;
-    background-color: red;
+  height: 20px;
+  background-color: red;
 }
 
 .slide .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 0, 0, 0.103);
-    position: absolute;
-    z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.103);
+  position: absolute;
+  z-index: 1;
 }
+
 /* End slider */
 
 /* Start feutures */
 
 .feutures {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 
 .feutures i {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    line-height: 100px;
-    color: white;
-    font-size: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  line-height: 100px;
+  color: white;
+  font-size: 50px;
 }
 
 .feutures h2 {
-    font-size: 40px;
-    margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .feutures h3 {
-    display: inline-block;
-    background-color: green;
-    color: white;
-    margin: 20px 0px;
+  display: inline-block;
+  background-color: green;
+  color: white;
+  margin: 20px 0px;
 }
 
 .feutures p {
-    color: rgb(100, 92, 92);
-    line-height: 1.8;
+  color: rgb(100, 92, 92);
+  line-height: 1.8;
 }
 
 /* End feutures */
 
 /* Start our team */
 .our-team {
-    background-image: url('../images/backgraund-food.jpg');
-    padding: 50px;
+  background-image: url("../images/backgraund-food.jpg");
+  padding: 50px;
 }
 
 .our-team h2 {
-    display: inline-block;
-    font-size: 40px;
-    margin-bottom: 30px;
-    background-color: rgba(151, 189, 75, 0.61);
-    color: white;
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 30px;
+  background-color: rgba(151, 189, 75, 0.61);
+  color: white;
 }
 
 .our-team .card {
-    margin: 10px 5px;
+  margin: 10px 5px;
 }
+
 /* End our team */
 
 /* Start statistic */
 .statistic {
-    width: 100%;
-    height: 500px;
-    background-image: url('../images/food2.jpg');
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/food2.jpg");
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .statistic .overlay {
-    background-color: rgba(0, 0, 0, 0.521);
-    width: 100%;
-    height: 100%;
-    padding-top: 130px;
+  background-color: rgba(0, 0, 0, 0.521);
+  width: 100%;
+  height: 100%;
+  padding-top: 130px;
 }
 
 .statistic .overlay h3 {
-    color: white;
+  color: white;
 }
 
 .statistic .overlay p {
-    color: white;
-    font-size: 100px;
+  color: white;
+  font-size: 100px;
 }
+
 /* End statistic */
 
 /* Start Our customars */
 .our-customars {
-    padding-top: 80px;
-    background-color: rgba(220, 220, 220, 0.192);
+  padding-top: 80px;
+  background-color: rgba(220, 220, 220, 0.192);
 }
 
 .our-customars h2 {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .our-customars img {
-    width: 100%;
-    margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 30px;
 }
+
 /* End Our Customars */
 
 /* Start Recent News */
 .recent-news .btn-danger {
-    background-color: rgb(50, 47, 255);
-    border-color: rgb(50, 47, 255);
+  background-color: rgb(50, 47, 255);
+  border-color: rgb(50, 47, 255);
 }
+
 /* End Recent News */
 
 /* Start Footer */
 footer .first {
-    background-color: teal;
-    padding-top: 20px;
-    margin-top: 40px;
+  background-color: teal;
+  padding-top: 20px;
+  margin-top: 40px;
 }
 
 footer .second {
-    background-color: tomato;
-    padding-top: 20px;
+  background-color: tomato;
+  padding-top: 20px;
 }
 
 footer p {
-    color: white;
+  color: white;
 }
 
 footer h2 {
-    color: white;
+  color: white;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: tomato;
+  color: tomato;
 }
 
 footer ul li {
-    list-style: none;
+  list-style: none;
 }
+
 /* End Footer */
 
 /* Start style of Blogs page */
 .jumbotron {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .jumbotron .blog-info {
-    flex: 2;
+  flex: 2;
 }
 
 .jumbotron .blog-image {
-    flex: 1;
-    height: 100%;
+  flex: 1;
+  height: 100%;
 }
+
 /* End style of Blogs page */
+
+/* Start style of Blogs details page */
+.blog-details p {
+  line-height: 2;
+  padding: 10px;
+}
+
+/* End style of Blogs Details page */
