@@ -213,3 +213,11 @@ footer ul li {
 }
 
 /* End style of Blogs Details page */
+
+/* Start style of Courses page */
+.courses img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+
+}
+/* End style of Courses page */
