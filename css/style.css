@@ -7,12 +7,13 @@ body {
 header {
   background-color: teal;
   color: white;
-  height: 50px;
   line-height: 50px;
 }
 
-header p {
+header a {
   float: right;
+  height: 80%;
+  margin-top: 5px;
 }
 
 header h5 {
@@ -198,6 +199,14 @@ footer ul li {
 /* End style of Blogs page */
 
 /* Start style of Blogs details page */
+.blog-details .card {
+  align-items: center;
+  padding-top: 20px;
+}
+.blog-details img {
+  width: 80%;
+  height: 300px;
+}
 .blog-details p {
   line-height: 2;
   padding: 10px;

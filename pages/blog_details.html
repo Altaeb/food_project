@@ -1,292 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Food Project</title>
-  </head>
-  <body>
-    <!-- Start header -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            Tel: 00218911118444 - E-mail: abd2010ly@gmail.com
-          </div>
-          <div class="col">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Food Project</title>
+</head>
+
+<body>
+  <!-- Start header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Tel: 00218911118444 - E-mail: abd2010ly@gmail.com
+        </div>
+        <div class="col">
+          <a class="btn btn-danger" data-toggle="modal" data-target="#staticBackdrop" href="">
             <p>Login</p>
-          </div>
+          </a>
         </div>
       </div>
-    </header>
-    <!-- End header -->
+    </div>
+  </header>
+  <!-- End header -->
 
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html"
-          ><img src="../images/food-logo.png" style="width: 50px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><img src="../images/food-logo.png" style="width: 50px" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/blog.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navpar -->
+
+  <!-- Start page name -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
+      <h1 class="display-4">Our Blog</h1>
+      <p class="lead">
+        This is a modified jumbotron that occupies the entire horizontal space
+        of its parent.
+      </p>
+    </div>
+  </div>
+  <!-- End page name -->
+
+  <!-- Start Bloge Details -->
+  <div class="blog-details">
+    <div class="container">
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <div class="card mt-5">
+        <img src="../images/food-news-1.jpg" alt="" />
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          aliquam in autem tempora iste, quidem explicabo reprehenderit vel
+          obcaecati necessitatibus atque impedit molestiae itaque alias
+          aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
+          corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
+          fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
+          ad veniam culpa tempora corrupti rerum neque, voluptatum ea
+          praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
+          iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
+          totam minima accusamus quis molestias vel officiis incidunt ipsa
+          animi amet doloribus quasi, consequuntur ullam laborum dolor
+          inventore eveniet odio sequi iure eligendi error. Maxime qui
+          facilis, ullam non ipsum sed animi libero? Expedita qui dolores
+          dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
+          error! Quibusdam maxime voluptatum cupiditate recusandae fugit
+          dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
+          error cumque reiciendis voluptatibus eos cum quae impedit culpa
+          velit esse maxime dicta? Distinctio mollitia quaerat voluptates
+          maxime laudantium? Rem sint illum possimus unde consequuntur culpa
+          labore ipsa atque officiis vitae incidunt eum pariatur expedita
+          perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
+          delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
+          veniam minima iure non ad voluptatum.
+        </p>
+        <img src="../images/food-news-2.jpg" alt="" />
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          aliquam in autem tempora iste, quidem explicabo reprehenderit vel
+          obcaecati necessitatibus atque impedit molestiae itaque alias
+          aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
+          corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
+          fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
+          ad veniam culpa tempora corrupti rerum neque, voluptatum ea
+          praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
+          iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
+          totam minima accusamus quis molestias vel officiis incidunt ipsa
+          animi amet doloribus quasi, consequuntur ullam laborum dolor
+          inventore eveniet odio sequi iure eligendi error. Maxime qui
+          facilis, ullam non ipsum sed animi libero? Expedita qui dolores
+          dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
+          error! Quibusdam maxime voluptatum cupiditate recusandae fugit
+          dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
+          error cumque reiciendis voluptatibus eos cum quae impedit culpa
+          velit esse maxime dicta? Distinctio mollitia quaerat voluptates
+          maxime laudantium? Rem sint illum possimus unde consequuntur culpa
+          labore ipsa atque officiis vitae incidunt eum pariatur expedita
+          perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
+          delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
+          veniam minima iure non ad voluptatum.
+        </p>
+        <img src="../images/food-news-3.jpg" alt="" />
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          aliquam in autem tempora iste, quidem explicabo reprehenderit vel
+          obcaecati necessitatibus atque impedit molestiae itaque alias
+          aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
+          corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
+          fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
+          ad veniam culpa tempora corrupti rerum neque, voluptatum ea
+          praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
+          iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
+          totam minima accusamus quis molestias vel officiis incidunt ipsa
+          animi amet doloribus quasi, consequuntur ullam laborum dolor
+          inventore eveniet odio sequi iure eligendi error. Maxime qui
+          facilis, ullam non ipsum sed animi libero? Expedita qui dolores
+          dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
+          error! Quibusdam maxime voluptatum cupiditate recusandae fugit
+          dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
+          error cumque reiciendis voluptatibus eos cum quae impedit culpa
+          velit esse maxime dicta? Distinctio mollitia quaerat voluptates
+          maxime laudantium? Rem sint illum possimus unde consequuntur culpa
+          labore ipsa atque officiis vitae incidunt eum pariatur expedita
+          perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
+          delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
+          veniam minima iure non ad voluptatum.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- End Bloge Details -->
+
+  <!-- Start Footer -->
+  <footer class="text-center">
+    <div class="first">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>My Web Site</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            vitae dolor nihil incidunt non ullam.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h2>Important links</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Recent News</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h2>Follow Us</h2>
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/blog.html">Blog</a>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- End Navpar -->
-
-    <!-- Start page name -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Blog</li>
-          </ol>
-        </nav>
-        <h1 class="display-4">Our Blog</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
-      </div>
     </div>
-    <!-- End page name -->
-
-    <!-- Start Bloge Details -->
-    <div class="blog-details">
-      <div class="container">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <div class="card mt-5">
-          <img src="../images/food-news-1.jpg" alt="" />
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-            aliquam in autem tempora iste, quidem explicabo reprehenderit vel
-            obcaecati necessitatibus atque impedit molestiae itaque alias
-            aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
-            corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
-            fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
-            ad veniam culpa tempora corrupti rerum neque, voluptatum ea
-            praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
-            iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
-            totam minima accusamus quis molestias vel officiis incidunt ipsa
-            animi amet doloribus quasi, consequuntur ullam laborum dolor
-            inventore eveniet odio sequi iure eligendi error. Maxime qui
-            facilis, ullam non ipsum sed animi libero? Expedita qui dolores
-            dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
-            error! Quibusdam maxime voluptatum cupiditate recusandae fugit
-            dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
-            error cumque reiciendis voluptatibus eos cum quae impedit culpa
-            velit esse maxime dicta? Distinctio mollitia quaerat voluptates
-            maxime laudantium? Rem sint illum possimus unde consequuntur culpa
-            labore ipsa atque officiis vitae incidunt eum pariatur expedita
-            perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
-            delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
-            veniam minima iure non ad voluptatum.
-          </p>
-          <img src="../images/food-news-2.jpg" alt="" />
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-            aliquam in autem tempora iste, quidem explicabo reprehenderit vel
-            obcaecati necessitatibus atque impedit molestiae itaque alias
-            aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
-            corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
-            fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
-            ad veniam culpa tempora corrupti rerum neque, voluptatum ea
-            praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
-            iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
-            totam minima accusamus quis molestias vel officiis incidunt ipsa
-            animi amet doloribus quasi, consequuntur ullam laborum dolor
-            inventore eveniet odio sequi iure eligendi error. Maxime qui
-            facilis, ullam non ipsum sed animi libero? Expedita qui dolores
-            dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
-            error! Quibusdam maxime voluptatum cupiditate recusandae fugit
-            dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
-            error cumque reiciendis voluptatibus eos cum quae impedit culpa
-            velit esse maxime dicta? Distinctio mollitia quaerat voluptates
-            maxime laudantium? Rem sint illum possimus unde consequuntur culpa
-            labore ipsa atque officiis vitae incidunt eum pariatur expedita
-            perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
-            delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
-            veniam minima iure non ad voluptatum.
-          </p>
-          <img src="../images/food-news-3.jpg" alt="" />
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-            aliquam in autem tempora iste, quidem explicabo reprehenderit vel
-            obcaecati necessitatibus atque impedit molestiae itaque alias
-            aspernatur ad, blanditiis sed voluptatem odio cupiditate qui
-            corporis maxime hic eaque. Quaerat aut dolorem, est repellendus
-            fugiat ullam. Voluptate rem numquam fugiat! Sunt officiis blanditiis
-            ad veniam culpa tempora corrupti rerum neque, voluptatum ea
-            praesentium molestiae quis omnis quod reiciendis, quo magni deserunt
-            iure doloremque labore quisquam veritatis iste. Cumque ex laudantium
-            totam minima accusamus quis molestias vel officiis incidunt ipsa
-            animi amet doloribus quasi, consequuntur ullam laborum dolor
-            inventore eveniet odio sequi iure eligendi error. Maxime qui
-            facilis, ullam non ipsum sed animi libero? Expedita qui dolores
-            dolorum sit! Aspernatur, quo? Voluptatem aperiam soluta accusantium
-            error! Quibusdam maxime voluptatum cupiditate recusandae fugit
-            dolorem labore! Labore, aliquam nemo aut ut magni ducimus hic ab
-            error cumque reiciendis voluptatibus eos cum quae impedit culpa
-            velit esse maxime dicta? Distinctio mollitia quaerat voluptates
-            maxime laudantium? Rem sint illum possimus unde consequuntur culpa
-            labore ipsa atque officiis vitae incidunt eum pariatur expedita
-            perferendis vero, nulla iusto eveniet officia nihil accusamus aut,
-            delectus impedit maxime at. Dolores at autem soluta quia. Voluptas,
-            veniam minima iure non ad voluptatum.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- End Bloge Details -->
-
-    <!-- Start Footer -->
-    <footer class="text-center">
-      <div class="first">
-        <div class="row">
-          <div class="col-sm-4">
-            <h2>My Web Site</h2>
+    <div class="second">
+      <div class="row">
+        <div class="col">
+          <a href="">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              vitae dolor nihil incidunt non ullam.
+              All rights reserved to Mishkat Educational Foundation for
+              Distance Education
             </p>
-          </div>
-          <div class="col-sm-4">
-            <h2>Important links</h2>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Our Team</a></li>
-              <li><a href="">Recent News</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">About Us</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h2>Follow Us</h2>
-            <ul>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
+          </a>
         </div>
       </div>
-      <div class="second">
-        <div class="row">
-          <div class="col">
-            <a href="">
-              <p>
-                All rights reserved to Mishkat Educational Foundation for
-                Distance Education
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Start Modal of login -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"> Login </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal of login -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
