@@ -141,3 +141,36 @@ header h5 {
     border-color: rgb(50, 47, 255);
 }
 /* End Recent News */
+
+/* Start Footer */
+footer .first {
+    background-color: teal;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+footer .second {
+    background-color: tomato;
+    padding-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+footer ul li {
+    list-style: none;
+}
+/* End Footer */
