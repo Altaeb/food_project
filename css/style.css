@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: teal;
     color: white;
     height: 50px;
     line-height: 50px;
@@ -173,3 +173,20 @@ footer ul li {
     list-style: none;
 }
 /* End Footer */
+
+/* Start style of Blogs page */
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blog-info {
+    flex: 2;
+}
+
+.jumbotron .blog-image {
+    flex: 1;
+    height: 100%;
+}
+/* End style of Blogs page */
