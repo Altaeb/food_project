@@ -324,6 +324,33 @@ footer ul li {
 /* End Footer */
 
 /* Start style of Blogs page */
+
+.blogs .blog-info .btn-danger {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.blogs .blog-info .btn-danger:hover {
+  background-color: teal;
+  border-color: teal;
+}
+
+.blogs .jumbotron img {
+  transition: all 3s;
+}
+
+.blogs .jumbotron img:hover {
+  transform: scale(1.1);
+}
+
+.blogs .list-group .active {
+  background-color: teal;
+}
+
+.blogs .list-group a:hover {
+  background-color: tomato;
+}
+
 .jumbotron {
   padding: 20px;
   display: flex;
@@ -362,6 +389,38 @@ footer ul li {
 .courses img:hover {
   transform: scale(1.1);
   transition: 1s;
+}
 
+.courses .card .card-body .btn-danger {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.courses .card .card-body .btn-danger:hover {
+  background-color: teal;
+  border-color: teal;
 }
 /* End style of Courses page */
+
+/* Start Courses details */
+.course-details .btn-link:hover {
+  background-color: teal;
+  color: white;
+}
+
+.course-details .list-group-item:hover{
+  background-color: tomato;
+  color: white;
+}
+
+.course-details .card .btn-danger {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.course-details .card .btn-danger:hover {
+  background-color: teal;
+  border-color: teal;
+}
+/* End Courses details */
+
