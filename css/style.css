@@ -176,8 +176,7 @@ footer a:hover {
 
 footer ul li {
   list-style: none;
-}
-
+} 
 /* End Footer */
 
 /* Start style of Blogs page */
@@ -203,15 +202,16 @@ footer ul li {
   align-items: center;
   padding-top: 20px;
 }
+
 .blog-details img {
   width: 80%;
   height: 300px;
 }
+
 .blog-details p {
   line-height: 2;
   padding: 10px;
 }
-
 /* End style of Blogs Details page */
 
 /* Start style of Courses page */
