@@ -4,6 +4,8 @@ body {
   font-family: "Cairo", sans-serif;
 }
 
+/* Start header */
+
 header {
   background-color: teal;
   color: white;
@@ -21,19 +23,44 @@ header h5 {
   background-color: red;
   display: inline-block;
 }
+/* End Header */
+
+/* Start Navpar */
+
+nav .collapse .active {
+  background-color: teal;
+  border-radius: 20px;
+  color: white;
+}
+nav .nav-link:hover {
+  background-color: tomato;
+  border-radius: 20px;
+}
+/* End Navpar */
 
 /* Start slider */
 .carousel-indicators li {
   height: 20px;
-  background-color: red;
+  background-color: tomato;
 }
 
 .slide .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 0, 0, 0.103);
+  background-color: rgba(0, 255, 128, 0.144);
   position: absolute;
   z-index: 1;
+}
+
+.slide .carousel-caption h2,
+.slide .carousel-caption p {
+  display: inline-block;
+  color: darkviolet;
+  font-weight: 700;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: tomato 1px solid;
 }
 
 /* End slider */
@@ -44,10 +71,14 @@ header h5 {
   margin-top: 75px;
 }
 
-.feutures i {
+.feutures .row {
+  justify-content: space-around;
+}
+
+.feutures .rounded-circle {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: tomato;
   line-height: 100px;
   color: white;
   font-size: 50px;
@@ -60,8 +91,12 @@ header h5 {
 
 .feutures h3 {
   display: inline-block;
-  background-color: green;
-  color: white;
+  color: darkviolet;
+  font-weight: 700;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: tomato 1px solid;
   margin: 20px 0px;
 }
 
@@ -70,37 +105,85 @@ header h5 {
   line-height: 1.8;
 }
 
-/* End feutures */
-
-/* Start our team */
-.our-team {
-  background-image: url("../images/backgraund-food.jpg");
-  padding: 50px;
+.feutures .sweety-box {
+  background-color: powderblue;
+    padding: 20px;
+    margin-right: 5PX;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: slategrey 5px 5px 5px ;
+    transition: all 1s;
 }
 
-.our-team h2 {
+.feutures .sweety-box:hover {
+  transform: translateY(-30px);
+  box-shadow: tomato 15px 15px 15px;
+}
+
+/* End feutures */
+
+/* Start our teacher */
+.our-teacher {
+  background-image: url("../images/backgraund-food.jpg");
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.our-teacher h2 {
   display: inline-block;
   font-size: 40px;
+  padding: 5px;
   margin-bottom: 30px;
   background-color: rgba(151, 189, 75, 0.61);
   color: white;
+  border-radius: 20px;
 }
 
-.our-team .card {
-  margin: 10px 5px;
+.our-teacher .row {
+  justify-content: space-around;
 }
 
-/* End our team */
+.our-teacher .card img {
+  transition: all 3s;
+}
+
+.our-teacher .card img:hover {
+  transform: rotateY(0);
+  transform: rotateY(45deg);
+  transform: rotateY(-0.2turn);
+  transform: rotateY(3.142rad);
+}
+
+.our-teacher .card .card-body {
+  display: grid;
+}
+
+.our-teacher .card .card-body .social-icon {
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+.our-teacher .card .card-body .social-icon a:hover {
+  color: tomato;
+}
+
+/* End our teacher */
 
 /* Start statistic */
 .statistic {
-  width: 100%;
-  height: 500px;
+  width: auto;
+  height: auto;
   background-image: url("../images/food2.jpg");
   margin-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  transition: all 3s;
 }
 
 .statistic .overlay {
@@ -117,6 +200,32 @@ header h5 {
 .statistic .overlay p {
   color: white;
   font-size: 100px;
+}
+
+.statistic .all {
+  transition: all 5s;
+}
+
+.statistic .all:hover {
+  transform: translateY(-60px);
+}
+
+.statistic .summary {
+  transform: translateX(60px);
+  transition: all 5s;
+}
+
+.statistic .summary:hover {
+  transform: translateX(160px);
+}
+
+.statistic .happy-students{
+  transform: translateX(-60px);
+  transition: all 5s;
+}
+
+.statistic .happy-students:hover {
+  transform: translateX(-160px);
 }
 
 /* End statistic */
@@ -136,14 +245,42 @@ header h5 {
   margin-bottom: 30px;
 }
 
+.our-customars img {
+  transition: all 3s;
+}
+
+.our-customars img:hover {
+  transform: scale(1.3)
+}
+
 /* End Our Customars */
 
 /* Start Recent News */
-.recent-news .btn-danger {
-  background-color: rgb(50, 47, 255);
-  border-color: rgb(50, 47, 255);
+
+.recent-news .card .card-body {
+  display: grid;
+}
+.recent-news .card .card-body .btn-danger {
+  background-color: tomato;
+  border-color: tomato;
+  align-self: flex-end;
 }
 
+.recent-news .card .card-body .btn-danger:hover {
+  background-color: teal;
+  border-color: teal;
+  color: white;
+}
+
+.recent-news img {
+  transition: all 3s;
+}
+
+.recent-news img:hover{
+  /* Function values */
+  transform: translateX(5px) rotate(-5deg) translateY(-30px);
+
+}
 /* End Recent News */
 
 /* Start Footer */
@@ -151,6 +288,13 @@ footer .first {
   background-color: teal;
   padding-top: 20px;
   margin-top: 40px;
+}
+footer .first .box {
+   transition: all 3s;
+ }
+
+footer .first .box:hover {
+  transform: scale(1.1)
 }
 
 footer .second {
